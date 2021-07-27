@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Android多语言</string>
+    <string name="open_landscape">打开横屏页面</string>
+    <string name="followsystem">跟隨系統</string>
+    <string name="open_webview">打开webview页面</string>
+    <string name="setting_language_title">多语言设置</string>
+    <string name="setting_language">多语言设置</string>
+    <string name="otheractivity">打开二级页面测试是否异常</string>
+    <string name="landscape">这是横屏页面</string>
+
+    <string name="setting_language_auto">跟随系统</string>
+    <string name="setting_language_english">English</string>
+    <string name="setting_simplified_chinese">简体中文</string>
+    <string name="setting_traditional_chinese">繁體中文</string>
+
+</resources>

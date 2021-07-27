@@ -23,22 +23,14 @@ public class MainActivity extends BaseActivity {
         setTitle(R.string.app_name);
         EventBus.getDefault().register(this);
     }
-    public void openLandScape(View view){
-        startActivity(new Intent(this,LandScapeActivity.class));
 
+    public void openSettingLanguage(View view) {
+        startActivity(new Intent(this, SetLanguageActivity.class));
     }
-    public void openWebView(View view){
-        startActivity(new Intent(this,WebViewActivity.class));
-    }
-    public void openSettingLanguage(View view){
-        startActivity(new Intent(this,SetLanguageActivity.class));
-    }
-    public void openOther(View view){
-        startActivity(new Intent(this,OtherActivity.class));
-    }
+
     @Subscribe(threadMode = ThreadMode.MAIN)
-    public void onChangeLanguageEvent(OnChangeLanguageEvent event){
-        Log.d("onchange","ChangeLanguage");
+    public void onChangeLanguageEvent(OnChangeLanguageEvent event) {
+        Log.d("onchange", "ChangeLanguage");
     }
 
     @Override
